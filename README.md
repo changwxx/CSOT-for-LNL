@@ -11,7 +11,7 @@ Code release for CSOT: Curriculum and Structure-Aware Optimal Transport for Lear
 > We follow [DivideMix](https://github.com/LiJunnan1992/DivideMix) and [NCE](https://github.com/lijichang/LNL-NCE) to construct our codebase.
 
 ## Getting started
-* Modify data_path in main.py
+* Modify data_path in `main_cifar.py`
 * Train with command line 
     ```
     CUDA_VISIBLE_DEVICES=0 python main_cifar.py
